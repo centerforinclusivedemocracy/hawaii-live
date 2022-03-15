@@ -1059,7 +1059,6 @@ function showSuggestedSiteInfo (square, row, layerinfo) {
     const scores = SITESCORES[siteid];
 
     const stats = {};
-    stats.id = siteid;
     stats.vage = scores['dens.cvap.std'] >= SITESCOREBREAKS['dens.cvap.std'][2] ? 'hi' : scores['dens.cvap.std'] >= SITESCOREBREAKS['dens.cvap.std'][1] ? 'md' : 'lo';
     stats.cowo = scores['dens.work.std'] >= SITESCOREBREAKS['dens.work.std'][2] ? 'hi' : scores['dens.work.std'] >= SITESCOREBREAKS['dens.work.std'][1] ? 'md' : 'lo';
     stats.popd = scores['popDens.std'] >= SITESCOREBREAKS['popDens.std'][2] ? 'hi' : scores['popDens.std'] >= SITESCOREBREAKS['popDens.std'][1] ? 'md' : 'lo';
