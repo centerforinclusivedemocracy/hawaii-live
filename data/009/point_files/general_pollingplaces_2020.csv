@@ -1,0 +1,7 @@
+name,address,Is Early Voting,Precincts (Or Locality-wide),Is Drop Off,lon,lat,V11
+Lanai Council District Office Lanai Community Center,"8TH STREET LANAI CITY, HI 96763",False,Locality wide location,False,-156.91961,20.82485,
+Lanai Council District Office Lanai Community Center,"8TH STREET LANAI CITY, HI 96763",True,Locality wide location,False,-156.91961,20.82485,
+Mitchell Pauole Center Conference Room,"90 AINOA STREET KAUNAKAKAI, HI 96748",False,Locality wide location,False,-157.01746,21.09037,
+Mitchell Pauole Center Conference Room,"90 AINOA STREET KAUNAKAKAI, HI 96748",True,Locality wide location,False,-157.01746,21.09037,
+Velma McWayne Santos Community Center,"395 WAENA STREET WAILUKU, HI 96793",False,Locality wide location,False,-156.49194,20.90016,
+Velma McWayne Santos Community Center,"395 WAENA STREET WAILUKU, HI 96793",True,Locality wide location,False,-156.49194,20.90016,

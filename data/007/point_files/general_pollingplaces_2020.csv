@@ -1,0 +1,3 @@
+name,address,Is Early Voting,Precincts (Or Locality-wide),Is Drop Off,lon,lat,V11
+Piikoi Building Conference Room A / B,"4444 RICE STREET LIHUE, HI 96766",False,Locality wide location,False,-159.36942,21.97625,
+Piikoi Building Conference Room A / B,"4444 RICE STREET LIHUE, HI 96766",True,Locality wide location,False,-159.36942,21.97625,

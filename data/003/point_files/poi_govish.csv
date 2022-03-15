@@ -1,0 +1,57 @@
+,osm_id,code,fclass,name,lon,lat
+0,367803584,2002,fire_station,Palolo Fire Station Number 33,-157.79453,21.29963
+1,367803585,2002,fire_station,Pearl City Fire Station,-157.97144,21.39014
+2,367803586,2002,fire_station,Kalihi Fire Station Number 6,-157.87861,21.33444
+3,367803599,2002,fire_station,Waialua-Haleiwa Fire Station Number 14,-158.115,21.58972
+4,367803601,2002,fire_station,Mililani-Waipio Fire Station Number 36,-158.01543,21.45684
+5,367803603,2002,fire_station,Sunset Beach Fire Station,-158.06265,21.64847
+6,367803605,2002,fire_station,Kaimuki Fire Station Number 5,-157.80196,21.28153
+7,367803606,2002,fire_station,Ewa Beach Fire Station Number 24,-158.01214,21.31512
+8,367803608,2002,fire_station,Waimanalo Fire Station Number 27,-157.71494,21.34712
+9,367803611,2002,fire_station,Waipahu Fire Station Number 12,-158.02528,21.38
+10,367803621,2002,fire_station,Kalihi-Kai Fire Station,-157.87879,21.32163
+11,367803624,2002,fire_station,Waterfront Fire Station Number 41,-157.86806,21.31444
+12,367803625,2002,fire_station,Waikiki-Kapahulu Fire Station,-157.81638,21.27306
+13,367803629,2007,library,Mililani Public Library,-158.01139,21.45556
+14,367803667,2007,library,Wahiawa Public Library,-158.02902,21.50022
+15,367803670,2007,library,Aina Haina Public Library,-157.75583,21.28167
+16,367803673,2007,library,Kalihi-Palama Public Library,-157.875,21.33639
+17,367803676,2007,library,Liliha Public Library,-157.8634,21.32417
+18,367803678,2007,library,Aiea Public Library,-157.93396,21.38393
+19,367803684,2007,library,Ewa Beach Public and School Library,-158.01111,21.31806
+20,367803688,2007,library,Waimanalo Public Library,-157.71473,21.34613
+21,367803742,2099,public_building,Wahiawa Civic Center,-158.0272,21.50169
+22,367803747,2007,library,Kahuku Public and School Library,-157.94772,21.67543
+23,736649637,2005,post_office,United States Post Office,-157.81099,21.30843
+24,765387966,2008,town_hall,City & County of Honolulu Satellite City Hall,-157.72989,21.37658
+25,885686017,2005,post_office,Laie Post Office,-157.92112,21.64628
+26,1654153395,2005,post_office,Kahala Post Office,-157.78619,21.27499
+27,2069271240,2001,police,Kaneohe Police Station,-157.7993,21.41308
+28,2069271241,2007,library,Kaneohe Public Library,-157.79924,21.41272
+29,2138059362,2005,post_office,Ala Moana Post Office,-157.84429,21.29188
+30,3104953630,2002,fire_station,Moanalua Fire Station Number 30,-157.90067,21.34509
+31,3435692146,2005,post_office,FedEx,-157.91583,21.31698
+32,3435692147,2005,post_office,Pacific Air Cargo,-157.91453,21.3175
+33,3664155704,2005,post_office,Aina Haina Post Office,-157.75324,21.27906
+34,3683170265,2007,library,Lama Library,-157.80034,21.2715
+35,3740797911,2005,post_office,Kaimuki Post Office,-157.79872,21.28138
+36,3740797987,2002,fire_station,Kaimuki Fire Station,-157.79938,21.27848
+37,4017125399,2007,library,Campus Library,-157.87085,21.32178
+38,4148070219,2005,post_office,United States Post Office,-157.9216,21.33556
+39,4168107492,2007,library,Mililani Community Library,-158.00844,21.45217
+40,4198287390,2005,post_office,United State Post Office Eaton Square,-157.83576,21.28708
+41,4263793619,2005,post_office,,-158.10512,21.58179
+42,4433201790,2001,police,Tita Mary kaniau place,-158.00136,21.39199
+43,4641274827,2002,fire_station,Aikahi Fire Station,-157.74965,21.42377
+44,4810719708,2005,post_office,Uptown Finance Station,-157.86064,21.31202
+45,5463825151,2011,embassy,Honorary Consulate of the Czech Republic,-157.79762,21.2611
+46,5519354806,2001,police,,-158.18752,21.4432
+47,5623315421,2005,post_office,FedEx,-157.84155,21.29311
+48,5623346224,2005,post_office,The UPS Store,-157.83713,21.29302
+49,6228570585,2007,library,Waialua Library,-158.12262,21.57386
+50,6997388372,2011,embassy,Consulate General of New Zealand,-157.86283,21.3067
+51,7504759877,2005,post_office,The UPS Store,-157.70451,21.27805
+52,7530445386,2008,town_hall,Hawai’i Kai Satellite City Hall,-157.71415,21.2835
+53,7769028383,2011,embassy,Consulate General of Japan,-157.85424,21.31944
+54,7793424561,2005,post_office,United States Post Office,-157.86073,21.30619
+55,8656400722,2008,town_hall,Windward City Satellite City Hall,-157.79777,21.4021
