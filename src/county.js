@@ -454,6 +454,25 @@ function initCountyMap () {
         // alert(`Problem loading or parsing ${gjurl}`);
     });
 
+    // load the statewide counties 2010 GeoJSON and filter to this one
+    busySpinner(true);
+    const gjurl2010 = `data/counties_2010.json`;
+    $.get(gjurl2010, function (data) {
+        COUNTYOVERLAY2010 = L.geoJson(data, {
+            filter: function (feature) {
+                return feature.properties.countyfp == COUNTYINFO.countyfp;
+            },
+            style: SINGLECOUNTY_STYLE,
+            pane: 'low',
+        })
+        busySpinner(false);
+    }, 'json')
+    .fail(function (err) {
+        busySpinner(false);
+        console.error(err);
+        // alert(`Problem loading or parsing ${gjurl}`);
+    });     
+
     // a registry of layers currently in the map: layer ID => L.tileLayer or L.geoJson or L.featureGroup or whatever
     // and some panes for prioritizing them by mapzindex
     // managed by toggleMapLayer()
@@ -643,32 +662,8 @@ function toggleMapLayer (layerid, visible) {
         // if 2016 layer then add 2010 county boundaries
         if (layerid.includes('2016')) {
             MAP.removeLayer(COUNTYOVERLAY);
-            // only load up data once
-            if (typeof COUNTYOVERLAY2010 == 'undefined') {
-                busySpinner(true);
-                const gjurl2010 = `data/counties_2010.json`;
-                $.get(gjurl2010, function (data) {
-                    COUNTYOVERLAY2010 = L.geoJson(data, {
-                        filter: function (feature) {
-                            return feature.properties.countyfp == COUNTYINFO.countyfp;
-                        },
-                        style: SINGLECOUNTY_STYLE,
-                        pane: 'low',
-                    })
-                    .addTo(MAP);
-                    busySpinner(false);
-                }, 'json')
-                .fail(function (err) {
-                    busySpinner(false);
-                    console.error(err);
-                    // alert(`Problem loading or parsing ${gjurl}`);
-                });      
-            }
-            // if data is already loaded then just add to map
-            else {
-                COUNTYOVERLAY2010.addTo(MAP);
-            };
-        }
+            COUNTYOVERLAY2010.addTo(MAP);
+        };
         addIndicatorChoroplethToMap(layerinfo);
     }
     else {
@@ -811,13 +806,10 @@ function addIndicatorChoroplethToMap (layerinfo) {
     // add the vector features to the map, styled by their score
     // don't worry about "downloading" these files with every request; in reality they'll be cached
     const tractsurl = `data/${COUNTYINFO.countyfp}/${layerinfo.tracts}`;
-    if (! layerinfo.id.includes('2016')) {
-        busySpinner(true);
-    }
+    busySpinner(true);
     $.getJSON(tractsurl, function (gjdata) {
-        if (! layerinfo.id.includes('2016')) {
-            busySpinner(false);
-        }
+
+        busySpinner(false);
 
         const featuregroup = L.geoJson(gjdata, {
             style: function (feature) {
