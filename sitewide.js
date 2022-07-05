@@ -145,6 +145,7 @@ DATA_LAYERS.four_day_sites = {
     mapzindex: 'high',
     legendformat: 'lowtohigh',
     downloadfile: 'model_files/four_day_sites_shp.zip',
+    downloadtype: 'SHP',
     radiogroup: 'suggestedsites',
     layertype: 'sites'
 };
@@ -158,6 +159,7 @@ DATA_LAYERS.eleven_day_sites = {
     mapzindex: 'high',
     legendformat: 'lowtohigh',
     downloadfile: 'model_files/eleven_day_sites_shp.zip',
+    downloadtype: 'SHP',
     radiogroup: 'suggestedsites',
     layertype: 'sites'
 };
@@ -170,6 +172,7 @@ DATA_LAYERS.dropbox_sites = {
     mapzindex: 'high',
     legendformat: 'lowtohigh',
     downloadfile: 'model_files/dropbox_sites_shp.zip',
+    downloadtype: 'SHP',
     layertype: 'sites'
 };
 DATA_LAYERS.all_sites_scored = {
@@ -181,6 +184,7 @@ DATA_LAYERS.all_sites_scored = {
     mapzindex: 'medium',
     legendformat: 'lowtohigh',
     downloadfile: 'model_files/all_sites_scored_shp.zip',
+    downloadtype: 'SHP',
     layertype: 'sites'
 };
 DATA_LAYERS.additional_sites_model = {
@@ -192,6 +196,7 @@ DATA_LAYERS.additional_sites_model = {
     mapzindex: 'high',
     legendformat: 'lowtohigh',
     downloadfile: 'model_files/additional_sites_model_shp.zip',
+    downloadtype: 'SHP',
     radiogroup: 'additionalsites',
     layertype: 'sites'
 };
@@ -204,6 +209,7 @@ DATA_LAYERS.additional_sites_distance = {
     mapzindex: 'high',
     legendformat: 'lowtohigh',
     downloadfile: 'model_files/additional_sites_distance_shp.zip',
+    downloadtype: 'SHP',
     radiogroup: 'additionalsites',
     layertype: 'sites'
 };
@@ -655,6 +661,7 @@ DATA_LAYERS.gen2020 = {
     popupnamefield: 'name',
     popuptypetext: '2020 General Voting Location',
     downloadfile: 'point_files/general_pollingplaces_2020.csv',
+    downloadtype: 'CSV',
     mapzindex: 'highest',
     layertype: 'pois'
 };
@@ -666,6 +673,7 @@ DATA_LAYERS.pripoll2020 = {
     popupnamefield: 'name',
     popuptypetext: '2020 Primary Voting Location',
     downloadfile: 'point_files/primary_pollingplaces_2020.csv',
+    downloadtype: 'CSV',
     mapzindex: 'highest',
     layertype: 'pois'
 };
@@ -677,6 +685,7 @@ DATA_LAYERS.pricenter2020 = {
     popupnamefield: 'name',
     popuptypetext: '2020 Primary Election Voting Locations',
     downloadfile: 'point_files/primary_votecenters_2020.csv',
+    downloadtype: 'CSV',
     mapzindex: 'highest',
     layertype: 'pois'
 };
@@ -686,6 +695,7 @@ DATA_LAYERS.transit_stops = {
     csvfile: 'point_files/transit_stops_latlononly.csv',
     circle: { radius: 20, color: '#008817', opacity: 1, fillColor: '#008817', fillOpacity: 1, weight: 2, },
     downloadfile: 'point_files/transit_stops.csv',
+    downloadtype: 'CSV',
     mapzindex: 'highest',
     layertype: 'pois'
 };
@@ -698,6 +708,7 @@ DATA_LAYERS.poi_govish = {
     popuptypefield: 'fclass',
     mapzindex: 'highest',
     downloadfile: 'point_files/poi_govish.csv',
+    downloadtype: 'CSV',
     layertype: 'pois'
 };
 DATA_LAYERS.poi_misc = {
@@ -709,6 +720,7 @@ DATA_LAYERS.poi_misc = {
     popuptypefield: 'fclass',
     mapzindex: 'highest',
     downloadfile: 'point_files/poi_misc.csv',
+    downloadtype: 'CSV',
     layertype: 'pois'
 };
 DATA_LAYERS.poi = {
@@ -720,6 +732,7 @@ DATA_LAYERS.poi = {
     popuptypefield: 'fclass',
     mapzindex: 'highest',
     downloadfile: 'point_files/poi.csv',
+    downloadtype: 'CSV',
     layertype: 'pois'
 };
 DATA_LAYERS.precincts = {
@@ -727,6 +740,7 @@ DATA_LAYERS.precincts = {
     title: "2020 General Election Precinct Boundaries",
     customgeojsonfile: 'point_files/precincts.geojson',
     downloadfile: 'point_files/precinctsSHP.zip',
+    downloadtype: 'SHP',
     style: { fill: '#969696', fillOpacity: 0, opacity: 5, color: 'black', weight: 1, interactive: true, smoothFactor: 0.5 },
     layertype: 'pois',
 };
